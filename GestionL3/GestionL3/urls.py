@@ -11,7 +11,3 @@ urlpatterns = [
     #path('', admin.site.urls, name = 'Admin'),
     path('', include('L3App_api.urls')),
 ]
-
-"""if settings.DEBUG:
-    
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)"""
